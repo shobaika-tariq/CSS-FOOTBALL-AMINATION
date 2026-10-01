@@ -1,0 +1,41 @@
+
+  body{
+    background-image: url(seamless-green-grass-pattern_1284-52275.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ img{
+    animation-name: football;
+    width: 300px;
+    position: relative;
+    height: 300px;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    
+    border-radius: 200px;
+ }
+ @keyframes football {
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        top: 0px;
+        left: 600px ;
+    }
+    50%{
+        top:400px;
+        left: 600px;
+    }
+    75%{
+        top: 400px;
+        left: 0px ;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+    
+ } 
